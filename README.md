@@ -4,7 +4,7 @@ Create an accurate chest-ct COVID detection service in a few lines of code.
 You are free to change the code to use your desired models.
 
 # Usage:
-## Install Dependencies:
+## Install Dependencies w pip:
 
 1- tensorflow
 
