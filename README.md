@@ -36,7 +36,7 @@ unzip CT-NonCOVID.zip
 ```
 
 
-## Do this steps in order to run the service. This includes loading the data, extracting feature maps and running the service.
+## Do this steps in order. This includes loading the data, extracting feature maps and running the service.
 
 ```bash
 git clone https://github.com/KiLJ4EdeN/DeepCOVID
