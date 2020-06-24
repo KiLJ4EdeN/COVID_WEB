@@ -4,6 +4,15 @@ Create an accurate chest-ct COVID detection service in a few lines of code.
 You are free to change the code to use your desired models.
 
 # Usage:
+## Install Dependencies:
+
+1- tensorflow
+2- sklearn
+3- opencv-contrib-python
+4- flask
+5- flask-ngrok
+6- pil
+
 ## Download the dataset and unzip the images:
 ```bash
 git clone https://github.com/UCSD-AI4H/COVID-CT
