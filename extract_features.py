@@ -29,7 +29,7 @@ for i in range(samples):
   X.append(feature_extractor(np.array([data[i]])))
 X = np.array(X)
 # replace old images with features.
-data = X.reshape(746, 1920)
+data = X.reshape(746, 1024)
 del X
 
 savemat('features.mat', {'data': data,
