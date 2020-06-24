@@ -1,5 +1,5 @@
 # DeepCOVID
-A novel application for covid detection using a deep learning web-service.
+Create an accurate chest-ct COVID detection service in a few lines of code.
 
 You are free to change the code to use your desired models.
 
