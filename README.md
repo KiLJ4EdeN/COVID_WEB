@@ -1,8 +1,18 @@
 # DeepCOVID
 A novel application for covid detection using a deep learning web-service.
 
+
 # Usage:
-## Do this steps in order to run the service.
+## Download the dataset and unzip the images:
+```bash
+git clone https://github.com/UCSD-AI4H/COVID-CT
+cd COVID-CT/Images-processed/
+unzip CT-COVID.zip
+unzip CT-NonCOVID.zip
+```
+
+
+## Do this steps in order to run the service. This includes loading the data, extracting feature maps and running the service.
 
 ```bash
 git clone https://github.com/KiLJ4EdeN/DeepCOVID
