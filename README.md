@@ -4,7 +4,7 @@ Create an accurate chest-ct COVID detection service in a few lines of code.
 You are free to change the code to use your desired models.
 
 
-[![License](https://img.shields.io/github/license/KiLJ4EdeN/DeepCOVID)](https://img.shields.io/github/license/KiLJ4EdeN/DeepCOVID) [![Version](https://img.shields.io/github/v/tag/KiLJ4EdeN/DeepCOVID)](https://img.shields.io/github/v/tag/KiLJ4EdeN/DeepCOVID) [![Code size](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/DeepCOVID)](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/DeepCOVID) [![Repo size](https://img.shields.io/github/repo-size/KiLJ4EdeN/DeepCOVID)](https://img.shields.io/github/repo-size/KiLJ4EdeN/DeepCOVID) [![Issue open](https://img.shields.io/github/issues/KiLJ4EdeN/DeepCOVID)](https://img.shields.io/github/issues/KiLJ4EdeN/DeepCOVID)
+[![License](https://img.shields.io/github/license/KiLJ4EdeN/Realtime_FacialRecognition)](https://img.shields.io/github/license/KiLJ4EdeN/DeepCOVID) [![Version](https://img.shields.io/github/v/tag/KiLJ4EdeN/DeepCOVID)](https://img.shields.io/github/v/tag/KiLJ4EdeN/DeepCOVID) [![Code size](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/DeepCOVID)](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/DeepCOVID) [![Repo size](https://img.shields.io/github/repo-size/KiLJ4EdeN/DeepCOVID)](https://img.shields.io/github/repo-size/KiLJ4EdeN/DeepCOVID) [![Issue open](https://img.shields.io/github/issues/KiLJ4EdeN/DeepCOVID)](https://img.shields.io/github/issues/KiLJ4EdeN/DeepCOVID)
 ![Issue closed](https://img.shields.io/github/issues-closed/KiLJ4EdeN/DeepCOVID)
 
 
