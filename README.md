@@ -1,6 +1,7 @@
 # DeepCOVID
 A novel application for covid detection using a deep learning web-service.
 
+You are free to change the code to use your desired models.
 
 # Usage:
 ## Download the dataset and unzip the images:
