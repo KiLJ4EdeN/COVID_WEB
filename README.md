@@ -7,11 +7,20 @@ You are free to change the code to use your desired models.
 ## Install Dependencies:
 
 1- tensorflow
+
 2- sklearn
+
 3- opencv-contrib-python
+
 4- flask
+
 5- flask-ngrok
+
 6- pil
+
+7- numpy
+
+8- scipy
 
 ## Download the dataset and unzip the images:
 ```bash
@@ -32,6 +41,7 @@ python3 extract_features.py
 python3 server.py
 ```
 The ngrok host url should be displayed.
+
 Note that you can comment out flask ngrok if you dont have an internet connection.
 
 
