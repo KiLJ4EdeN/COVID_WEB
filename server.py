@@ -64,6 +64,7 @@ app = Flask(__name__)
 run_with_ngrok(app)
 
 
+# define loading fn.
 def load_image_file(file, mode='RGB'):
     """
     Loads an image file (.jpg, .png, etc) into a numpy array
@@ -76,6 +77,7 @@ def load_image_file(file, mode='RGB'):
         im = im.convert(mode)
     return np.array(im)
 
+# check for desired file extensions.
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
