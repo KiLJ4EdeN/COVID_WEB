@@ -16,7 +16,7 @@ Note that you can comment out flask ngrok if you dont have an internet connectio
 
 
 ## Additional utils
-### these let you see the classification metrics, or get new parameters with bayesian optimization.
+### These let you see the classification metrics, or get new parameters with bayesian optimization.
 ```bash
 python3 run_bayesian_optimization.py
 python3 evaluate_model.py
