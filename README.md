@@ -5,7 +5,7 @@ A novel and reliable deep learning web-based tool to detect COVID-19 infection f
 
 Please kindly cite the article at https://arxiv.org/abs/2006.14419 if you find this useful to your application.
 
-Create an accurate chest-ct COVID detection service in a few lines of code.
+Create an accurate chest-ct COVID detection service and make it publicly available in a few lines of code.
 
 You are free to change the code to use your desired models.
 
