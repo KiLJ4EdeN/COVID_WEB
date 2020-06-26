@@ -45,8 +45,8 @@ unzip CT-NonCOVID.zip
 ## Do this steps in order. This includes loading the data, extracting feature maps and running the service.
 
 ```bash
-git clone https://github.com/KiLJ4EdeN/DeepCOVID
-cd DeepCOVID
+git clone https://github.com/KiLJ4EdeN/COVID_WEB
+cd COVID_WEB
 python3 create_dataset.py
 python3 extract_features.py
 python3 server.py
