@@ -3,7 +3,7 @@
 Source codes for the paper: 
 A novel and reliable deep learning web-based tool to detect COVID-19 infection form chest CT-scan
 
-Please kindly cite the article at https://arxiv.org/abs/2006.14419 if you find this useful to your application.
+Please kindly cite the article at https://arxiv.org/abs/2006.14419 (pdf at https://128.84.21.199/pdf/2006.14419), if you find this useful to your application.
 
 Create an accurate chest-ct COVID detection service and make it publicly available in a few lines of code.
 
