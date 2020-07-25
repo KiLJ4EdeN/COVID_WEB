@@ -63,3 +63,14 @@ python3 run_bayesian_optimization.py
 python3 evaluate_model.py
 ```
 Consider that this is just for demonstration, since the model is already using optimal parameters.
+
+
+Citation:
+
+@article{Saeedi2020ANA,
+  title={A Novel and Reliable Deep Learning Web-Based Tool to Detect COVID-19 Infection from Chest CT-Scan},
+  author={Abdolkarim Saeedi and Maryam Saeedi and Arash Maghsoudi},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2006.14419}
+}
