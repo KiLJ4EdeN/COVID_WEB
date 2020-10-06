@@ -6,7 +6,7 @@ import time
 from warnings import simplefilter
 from scipy.io import loadmat
 
-
+s_time = time.time()
 FV = loadmat('features.mat')
 X = FV['data']
 Y = FV['labels']
