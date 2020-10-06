@@ -1,5 +1,6 @@
 # COVID_WEB
 
+NOTE: The code is changed to match the updated covid-ct repository, if new images are added the accuracy might have a +-1 variance.
 Source codes for the paper: 
 A Novel and Reliable Deep Learning Web-Based Tool to Detect COVID-19 Infection from Chest CT-Scan
 
@@ -17,21 +18,9 @@ You are free to change the code to use your desired models.
 # Usage:
 ## Install Dependencies w pip:
 
-1- tensorflow
-
-2- sklearn
-
-3- opencv-contrib-python
-
-4- flask
-
-5- flask-ngrok
-
-6- pil
-
-7- numpy
-
-8- scipy
+```bash
+pip3 install tensorflow sklearn opencv-contrib-python flask flask-ngrok pil numpy scipy
+```
 
 ## Do this steps in order. This includes loading the data, extracting feature maps and running the service.
 Remember to include the dataset in the directory.
