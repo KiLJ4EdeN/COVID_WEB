@@ -26,8 +26,7 @@ You are free to change the code to use your desired models.
 pip3 install tensorflow sklearn opencv-contrib-python flask flask-ngrok pil numpy scipy
 ```
 
-## Do this steps in order. This includes loading the data, extracting feature maps and running the service.
-Remember to include the dataset in the directory.
+## Do this steps in order. This includes loading the data, extracting feature maps and running the service
 
 ```bash
 git clone https://github.com/KiLJ4EdeN/COVID_WEB
