@@ -33,29 +33,24 @@ You are free to change the code to use your desired models.
 
 8- scipy
 
-## Download the dataset and unzip the images:
-```bash
-git clone https://github.com/UCSD-AI4H/COVID-CT
-cd COVID-CT/Images-processed/
-unzip CT-COVID.zip
-unzip CT-NonCOVID.zip
-```
-
-
 ## Do this steps in order. This includes loading the data, extracting feature maps and running the service.
-Remember to include the dataset in the directory
+Remember to include the dataset in the directory.
 
 ```bash
 git clone https://github.com/KiLJ4EdeN/COVID_WEB
+git clone https://github.com/UCSD-AI4H/COVID-CT
+cp COVID-CT/Images-processed/{CT_COVID.zip,CT_NonCOVID.zip} COVID_WEB
 cd COVID_WEB
+unzip CT_COVID.zip
+unzip CT_NonCOVID.zip
 python3 create_dataset.py
 python3 extract_features.py
 python3 server.py
 ```
+
 The ngrok host url should be displayed.
 
 Note that you can comment out flask ngrok if you dont have an internet connection.
-
 
 ## Additional utils
 ### These let you see the classification metrics, or get new parameters with bayesian optimization.
