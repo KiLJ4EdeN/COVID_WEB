@@ -34,7 +34,7 @@ def detect(imagePath, models):
   covid19 = False
   image = imagePath
   feature_extractor, clf = models
-  image = cv2.resize(image, (224, 224))
+  image = cv2.resize(image, (224, 224)) / 255.
   features = feature_extractor(np.array([image]))
   features = np.array(features).reshape(1024, 1)
   pred = np.around(clf.predict(features.reshape(1, -1)))
