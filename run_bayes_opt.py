@@ -8,6 +8,7 @@ from scipy.io import loadmat
 FV = loadmat('features.mat')
 X = FV['data']
 Y = FV['labels']
+Y = Y.transpose()
 def svm_evaluate(                
                 NU,
                 GAMMA,      
