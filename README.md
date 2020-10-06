@@ -1,8 +1,9 @@
 # COVID_WEB
 
-NOTE: The code is changed to match the updated covid-ct repository, if new images are added the accuracy might have a +-1 variance.
 Source codes for the paper: 
 A Novel and Reliable Deep Learning Web-Based Tool to Detect COVID-19 Infection from Chest CT-Scan
+
+NOTE: The code is changed to match the updated covid-ct repository, if new images are added the accuracy might have a +-1 variance.
 
 Please kindly cite the article at https://arxiv.org/abs/2006.14419, if you find this useful to your application.
 
