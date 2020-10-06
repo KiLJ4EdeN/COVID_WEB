@@ -2,6 +2,7 @@
 
 Source codes for the paper: 
 A Novel and Reliable Deep Learning Web-Based Tool to Detect COVID-19 Infection from Chest CT-Scan
+The paper Achieved up to 90% accuracy on a dataset of about 750 CT images.
 
 NOTE: The code is changed to match the updated covid-ct repository, if new images are added the accuracy might have a +-1 variance.
 
