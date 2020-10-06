@@ -1,21 +1,21 @@
 # COVID_WEB
 
+Create an accurate chest-ct COVID detection service and make it publicly available in a few lines of code.
+
 Source codes for the paper: 
 A Novel and Reliable Deep Learning Web-Based Tool to Detect COVID-19 Infection from Chest CT-Scan
 The paper Achieved up to 90% accuracy on a dataset of about 750 CT images.
-
-NOTE: The code is changed to match the updated covid-ct repository, if new images are added the accuracy might have a +-1 variance.
-
 Please kindly cite the article at https://arxiv.org/abs/2006.14419, if you find this useful to your application.
 
-Create an accurate chest-ct COVID detection service and make it publicly available in a few lines of code.
+NOTE: The Code is Changed to Match the Updated COVID-CT repository, if new images are modified the accuracy might have a +-1 variance.
 
 You are free to change the code to use your desired models.
-
 
 [![License](https://img.shields.io/github/license/KiLJ4EdeN/Realtime_FacialRecognition)](https://img.shields.io/github/license/KiLJ4EdeN/COVID_WEB) [![Version](https://img.shields.io/github/v/tag/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/v/tag/KiLJ4EdeN/COVID_WEB) [![Code size](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/COVID_WEB) [![Repo size](https://img.shields.io/github/repo-size/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/repo-size/KiLJ4EdeN/COVID_WEB) [![Issue open](https://img.shields.io/github/issues/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/issues/KiLJ4EdeN/COVID_WEB)
 ![Issue closed](https://img.shields.io/github/issues-closed/KiLJ4EdeN/COVID_WEB)
 
+# Notebook version:
+* [COLAB](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/notebook_service.ipynb)
 
 # Usage:
 ## Install Dependencies w pip:
