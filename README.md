@@ -29,6 +29,7 @@ Remember to include the dataset in the directory.
 git clone https://github.com/KiLJ4EdeN/COVID_WEB
 git clone https://github.com/UCSD-AI4H/COVID-CT
 cp COVID-CT/Images-processed/{CT_COVID.zip,CT_NonCOVID.zip} COVID_WEB
+rm -rf COVID-CT
 cd COVID_WEB
 unzip CT_COVID.zip
 unzip CT_NonCOVID.zip
