@@ -3,6 +3,7 @@
 
 import tensorflow as tf
 from scipy.io import loadmat, savemat
+import numpy as np
 
 
 FV = loadmat('images.mat')
