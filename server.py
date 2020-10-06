@@ -1,4 +1,4 @@
-# webservice
+# Covid Detection WebService
 #
 # $ curl -XPOST -F "file=@covid.jpg" http://127.0.0.1:5001
 
@@ -11,7 +11,7 @@ from sklearn.svm import NuSVC
 import pickle
 from scipy.io import loadmat
 
-# create svm
+# Create An SVM
 FV = loadmat('features.mat')
 X = FV['data']
 Y = FV['labels']
@@ -20,10 +20,11 @@ Y = Y.transpose()
 clf = NuSVC(nu=0.4, kernel='rbf', gamma=0.009876939713502824, shrinking=True, tol=0.00001,
           max_iter=176, random_state=1, class_weight='balanced', probability=True)
 clf.fit(X, Y)
+# Save the SVM to be used on the endpoint.
 with open('svm_model.pkl', 'wb') as f:
   pickle.dump(clf, f)
 
-# define detection and loading fn's.'
+# Perform all the steps at once and return a probabilty for covid.
 def detect(imagePath, models):
   import numpy as np
   import cv2
@@ -42,6 +43,7 @@ def detect(imagePath, models):
   return {'covid19': covid19,
           'response_time': time.time()-s_time}
 
+# Utility func to load the models.
 def load_models():
   import tensorflow as tf
   import pickle
@@ -66,7 +68,7 @@ app = Flask(__name__)
 run_with_ngrok(app)
 
 
-# define loading fn.
+# Load RGB images.
 def load_image_file(file, mode='RGB'):
     """
     Loads an image file (.jpg, .png, etc) into a numpy array
@@ -79,12 +81,12 @@ def load_image_file(file, mode='RGB'):
         im = im.convert(mode)
     return np.array(im)
 
-# check for desired file extensions.
+# Check for desired file extensions.
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-
+# Prediction endpoint.
 @app.route('/', methods=['GET', 'POST'])
 def upload_image():
     # Check if a valid image file was uploaded
@@ -121,7 +123,7 @@ def upload_image():
     </form>
     '''
 
-
+# Detection wrapper.
 def detect_covid(file_stream):
     image = load_image_file(file_stream)
     result =  detect(image, models)
