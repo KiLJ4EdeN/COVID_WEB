@@ -15,7 +15,7 @@ You are free to change the code to use your desired models.
 ![Issue closed](https://img.shields.io/github/issues-closed/KiLJ4EdeN/COVID_WEB)
 
 # Notebook version:
-* [COLAB](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/notebook_service.ipynb)
+* [Battle tested On Google Colab](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/notebook_service.ipynb)
 
 # Usage:
 ## Install Dependencies w pip:
