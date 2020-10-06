@@ -15,6 +15,8 @@ from scipy.io import loadmat
 FV = loadmat('features.mat')
 X = FV['data']
 Y = FV['labels']
+# fix a bug where saving with scipy makes the matrix transposed.
+Y = Y.transpose()
 clf = NuSVC(nu=0.4, kernel='rbf', gamma=0.009876939713502824, shrinking=True, tol=0.00001,
           max_iter=176, random_state=1, class_weight='balanced', probability=True)
 clf.fit(X, Y)
