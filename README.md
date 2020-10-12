@@ -22,6 +22,7 @@ Or
 
 ```bash
 git clone https://github.com/KiLJ4EdeN/COVID_WEB
+cd COVID_WEB
 chmod +x server.sh
 ./server.sh
 ```
