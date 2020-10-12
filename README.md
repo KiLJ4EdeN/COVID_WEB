@@ -18,9 +18,17 @@ You are free to change the code to use your desired models.
 
 * [Notebook Version](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/notebook_service.ipynb)
 
+Or
 
-# Usage:
-## Install Dependencies w pip:
+```bash
+git clone https://github.com/KiLJ4EdeN/COVID_WEB
+chmod +x server.sh
+./server.sh
+```
+
+
+# Manual Installation:
+## Get Dependencies w pip:
 
 ```bash
 pip3 install tensorflow sklearn opencv-contrib-python flask flask-ngrok pil numpy scipy
