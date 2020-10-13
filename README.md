@@ -14,41 +14,18 @@ You are free to change the code to use your desired models.
 [![License](https://img.shields.io/github/license/KiLJ4EdeN/Realtime_FacialRecognition)](https://img.shields.io/github/license/KiLJ4EdeN/COVID_WEB) [![Version](https://img.shields.io/github/v/tag/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/v/tag/KiLJ4EdeN/COVID_WEB) [![Code size](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/COVID_WEB) [![Repo size](https://img.shields.io/github/repo-size/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/repo-size/KiLJ4EdeN/COVID_WEB) [![Issue open](https://img.shields.io/github/issues/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/issues/KiLJ4EdeN/COVID_WEB)
 ![Issue closed](https://img.shields.io/github/issues-closed/KiLJ4EdeN/COVID_WEB)
 
-# Run the service right now:
+## Run the service right now:
 
 * [Notebook Version](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/notebook_service.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KiLJ4EdeN/COVID_WEB/blob/master/notebook_service.ipynb)
 
-Or
+## Or Install on a Local Computer.
 
 ```bash
 git clone https://github.com/KiLJ4EdeN/COVID_WEB
 cd COVID_WEB
 chmod +x server.sh
 ./server.sh
-```
-
-
-# Manual Installation:
-## Get Dependencies w pip:
-
-```bash
-pip3 install tensorflow sklearn opencv-contrib-python flask flask-ngrok pil numpy scipy
-```
-
-## Do this steps in order. This includes loading the data, extracting feature maps and running the service
-
-```bash
-git clone https://github.com/KiLJ4EdeN/COVID_WEB
-git clone https://github.com/UCSD-AI4H/COVID-CT
-cp COVID-CT/Images-processed/{CT_COVID.zip,CT_NonCOVID.zip} COVID_WEB
-rm -rf COVID-CT
-cd COVID_WEB
-unzip CT_COVID.zip
-unzip CT_NonCOVID.zip
-python3 create_dataset.py
-python3 extract_features.py
-python3 server.py
 ```
 
 The ngrok host url should be displayed.
