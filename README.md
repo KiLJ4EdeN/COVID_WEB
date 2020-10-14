@@ -53,7 +53,7 @@ Upload An Image:
 ![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/upload.jpg)
 
 Get the Results:
-![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/result.png)
+![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/result.jpg)
 
 
 ## Additional utils
