@@ -14,6 +14,20 @@ You are free to change the code to use your desired models.
 [![License](https://img.shields.io/github/license/KiLJ4EdeN/Realtime_FacialRecognition)](https://img.shields.io/github/license/KiLJ4EdeN/COVID_WEB) [![Code size](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/languages/code-size/KiLJ4EdeN/COVID_WEB) [![Repo size](https://img.shields.io/github/repo-size/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/repo-size/KiLJ4EdeN/COVID_WEB) [![Open Issues](https://img.shields.io/github/issues/KiLJ4EdeN/COVID_WEB)](https://img.shields.io/github/issues/KiLJ4EdeN/COVID_WEB)
 ![Closed Issues](https://img.shields.io/github/issues-closed/KiLJ4EdeN/COVID_WEB)
 
+
+## Dataset:
+Full dataset is available on 
+
+Some samples are shown below:
+![](https://github.com/KiLJ4EdeN/COVID_WEB/tree/master/images/cvoid.jpg)
+
+
+
+## Proposed Scheme:
+![](https://github.com/KiLJ4EdeN/COVID_WEB/tree/master/images/workflow.jpg)
+![](https://github.com/KiLJ4EdeN/COVID_WEB/tree/master/images/densenet.png)
+
+
 ## Run the service right now:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KiLJ4EdeN/COVID_WEB/blob/master/notebook_service.ipynb)
@@ -32,6 +46,15 @@ chmod +x server.sh
 The ngrok host url should be displayed.
 
 Note that you can comment out flask ngrok if you dont have an internet connection.
+
+## Results:
+
+Upload An Image:
+![](https://github.com/KiLJ4EdeN/COVID_WEB/tree/master/images/upload.jpg)
+
+Get the Results:
+![](https://github.com/KiLJ4EdeN/COVID_WEB/tree/master/images/result.png)
+
 
 ## Additional utils
 ### These let you see the classification metrics, or get new parameters with bayesian optimization.
