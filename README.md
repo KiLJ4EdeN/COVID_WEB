@@ -24,7 +24,7 @@ Some samples are shown below:
 
 
 ## Proposed Scheme:
-<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/workflow.jpg" width="80%" height="80%" />
+<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/workflow.jpg" width="70%" height="70%" />
 <img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/densenet.png" width="80%" height="80%" />
 
 
