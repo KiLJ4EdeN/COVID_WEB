@@ -24,8 +24,8 @@ Some samples are shown below:
 
 
 ## Proposed Scheme:
-![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/workflow.jpg)
-![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/densenet.png)
+<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/workflow.jpg" width="60%" height="60%" />
+<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/densenet.png" width="60%" height="60%" />
 
 
 ## Run the service right now:
