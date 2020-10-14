@@ -10,6 +10,7 @@ import numpy as np
 from sklearn.svm import NuSVC
 import pickle
 from scipy.io import loadmat
+import time
 
 # Create An SVM
 FV = loadmat('features.mat')
@@ -26,10 +27,6 @@ with open('svm_model.pkl', 'wb') as f:
 
 # Perform all the steps at once and return a probabilty for covid.
 def detect(imagePath, models):
-  import numpy as np
-  import cv2
-  import time
-
   s_time = time.time()
   covid19 = False
   image = imagePath
@@ -59,7 +56,7 @@ def load_models():
   return [feature_extractor, clf]
   
   
- 
+# Load Models.
 models = load_models()
 # You can change this to any folder on your system
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
