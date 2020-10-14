@@ -50,7 +50,8 @@ Note that you can comment out flask ngrok if you dont have an internet connectio
 ## Results:
 
 Upload An Image:
-![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/upload.jpg | width=100)
+![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/upload.jpg)
+<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/upload.jpg" width="200" height="400" />
 
 Get the Results:
 ![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/result.jpg)
