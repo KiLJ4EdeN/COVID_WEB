@@ -53,7 +53,7 @@ Upload An Image:
 <img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/upload.jpg" width="800" height="400" />
 
 Get the Results:
-<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/result.jpg" width="200" height="200" />
+<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/result.jpg" width="320" height="200" />
 
 
 
