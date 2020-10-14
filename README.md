@@ -24,8 +24,8 @@ Some samples are shown below:
 
 
 ## Proposed Scheme:
-<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/workflow.jpg" width="60%" height="60%" />
-<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/densenet.png" width="60%" height="60%" />
+<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/workflow.jpg" width="80%" height="80%" />
+<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/densenet.png" width="80%" height="80%" />
 
 
 ## Run the service right now:
@@ -56,7 +56,7 @@ Upload An Image:
 <img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/upload.jpg" width="60%" height="60%" />
 
 Get the Results:
-<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/result.jpg" width="60%" height="60%" />
+<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/result.jpg" width="40%" height="40%" />
 
 
 
