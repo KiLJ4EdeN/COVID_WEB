@@ -19,13 +19,13 @@ You are free to change the code to use your desired models.
 Full dataset is available on 
 
 Some samples are shown below:
-![](https://github.com/KiLJ4EdeN/COVID_WEB/tree/master/images/cvoid.jpg)
+![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/covid.jpg)
 
 
 
 ## Proposed Scheme:
-![](https://github.com/KiLJ4EdeN/COVID_WEB/tree/master/images/workflow.jpg)
-![](https://github.com/KiLJ4EdeN/COVID_WEB/tree/master/images/densenet.png)
+![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/workflow.jpg)
+![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/densenet.png)
 
 
 ## Run the service right now:
@@ -50,10 +50,10 @@ Note that you can comment out flask ngrok if you dont have an internet connectio
 ## Results:
 
 Upload An Image:
-![](https://github.com/KiLJ4EdeN/COVID_WEB/tree/master/images/upload.jpg)
+![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/upload.jpg)
 
 Get the Results:
-![](https://github.com/KiLJ4EdeN/COVID_WEB/tree/master/images/result.png)
+![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/result.png)
 
 
 ## Additional utils
