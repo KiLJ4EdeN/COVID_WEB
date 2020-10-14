@@ -7,7 +7,7 @@ A Novel and Reliable Deep Learning Web-Based Tool to Detect COVID-19 Infection f
 The paper Achieved up to 90% accuracy on a dataset of about 750 CT images.
 Please kindly cite the article at https://arxiv.org/abs/2006.14419, if you find this useful to your application.
 
-NOTE: The Code is Changed to Match the Updated COVID-CT repository, the accuracy might have a +-3 variance.
+NOTE: The Code is Changed to Match the Updated COVID-CT repository, the accuracy might have a +-2 variance.
 
 You are free to change the code to use your desired models.
 
@@ -16,7 +16,7 @@ You are free to change the code to use your desired models.
 
 
 ## Dataset:
-Full dataset is available on 
+Full dataset is available on https://github.com/UCSD-AI4H/COVID-CT
 
 Some samples are shown below:
 ![](https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/covid.jpg)
