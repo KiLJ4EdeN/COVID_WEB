@@ -50,10 +50,10 @@ Note that you can comment out flask ngrok if you dont have an internet connectio
 ## Results:
 
 Upload An Image:
-<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/upload.jpg" width="800" height="400" />
+<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/upload.jpg" width="60%" height="60%" />
 
 Get the Results:
-<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/result.jpg" width="320" height="200" />
+<img src="https://github.com/KiLJ4EdeN/COVID_WEB/blob/master/images/result.jpg" width="60%" height="60%" />
 
 
 
